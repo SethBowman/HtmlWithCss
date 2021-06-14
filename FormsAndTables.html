@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <title>Forms and Tables Practice</title>
+    <meta charset="utf-8"/> 
+</head>
+<body>
+    <div>
+        <h1>Career Application</h1>
+    </div>
+    <main>
+        <section>
+            <form>
+                <div>
+                <!-- Name -->
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="John Doe">
+                </div>
+                <div>
+                <!-- Email -->
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="johndoe@email.com">
+                </div>                
+                <!-- Experience -->
+                <div>
+                <input type="radio" name="xp" id="entryLevelInput" checked>
+                <label for="entryLevelInput">Entry Level</label>
+                <input type="radio" name="xp" id="juniorLevelInput">
+                <label for="juniorLevelInput">Junior Level</label>
+                <input type="radio" name="xp" id="seniorLevelInput">
+                <label for="seniorLevelInput">Senior Level</label>
+                </div>
+                <!-- Desired Career --> 
+                <div>
+                    <label for="career">Desired Career</label>
+                    <input type="text" 
+                    name="career" 
+                    id="career" 
+                    placeholder="i.e. Software Developer"
+                    />
+                </div>                
+                <!-- Desired Salary -->
+                <div>
+                    <label for="salary">Desired Salary</label>
+                    <span>$45,000</span>
+                    <input type="range" name="salary" id="salary" min="45000" max="200000">
+                    <span>$200,000</span>
+                </div>
+                
+                <div>
+                    <!-- Submit the Information -->
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
